@@ -1,4 +1,4 @@
-# Cognizant GenC Elevate — Hands-On Training
+# Cognizant — Hands-On Training
 
 This repository contains my weekly hands-on exercise solutions for Cognizant's GenC Elevate training program. The exercises are structured week-wise and span core Java concepts including Design Patterns, Data Structures, and Algorithms.
 
@@ -17,7 +17,8 @@ COGNIZANT-HANDSON/
 
 ## 🧩 Exercises
 
-Each exercise is a standalone Java project focused on one concept. Week 1 covers creational design patterns (Singleton, Factory Method) and foundational data structures and algorithms.
+Each exercise is a standalone Java project focused on one concept. 
+Week 1 covers creational design patterns (Singleton, Factory Method) and foundational data structures and algorithms.
 
 ## 🛠️ Tech Stack
 
