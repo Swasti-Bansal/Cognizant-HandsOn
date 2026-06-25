@@ -9,7 +9,10 @@ This repository contains my weekly hands-on exercise solutions for Cognizant's G
 ```
 COGNIZANT-HANDSON/
 └── Week 1/
-    ├── Algorithm_Data_Structures/
+    ├── Algorithm_Data Structures/
+    │   ├── Exercise 2/
+    │   └── Exercise 7/
+    │
     └── Design Patterns and Principles/
         ├── SingletonPatternExample/
         └── FactoryMethodPatternExample/
@@ -17,8 +20,16 @@ COGNIZANT-HANDSON/
 
 ## 🧩 Exercises
 
-Each exercise is a standalone Java project focused on one concept. 
-Week 1 covers creational design patterns (Singleton, Factory Method) and foundational data structures and algorithms.
+
+### Week 1
+
+#### Design Patterns and Principles
+- Exercise 1 – Singleton Pattern
+- Exercise 2 – Factory Method Pattern
+
+#### Algorithm & Data Structures
+- Exercise 2 – E-commerce Platform Search Function
+- Exercise 7 – Financial Forecasting
 
 ## 🛠️ Tech Stack
 
