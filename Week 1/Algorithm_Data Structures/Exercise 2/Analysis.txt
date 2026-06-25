@@ -1,0 +1,51 @@
+SEARCH ALGORITHMS ANALYSIS
+
+1. What is Big O Notation?
+
+Big O notation is used to measure the efficiency of an algorithm. It tells us how the running time of an algorithm increases when the amount of data increases.
+
+For example:
+
+* O(1) means constant time.
+* O(n) means the time increases with the number of elements.
+* O(log n) means the time increases slowly even when the data becomes very large.
+
+2. Best, Average and Worst Case
+
+Linear Search:
+
+* Best Case: The element is found at the first position. Time Complexity = O(1)
+* Average Case: The element is found somewhere in the middle. Time Complexity = O(n)
+* Worst Case: The element is at the last position or not present. Time Complexity = O(n)
+
+Binary Search:
+
+* Best Case: The element is found at the middle position in the first comparison. Time Complexity = O(1)
+* Average Case: Time Complexity = O(log n)
+* Worst Case: Time Complexity = O(log n)
+
+3. Comparison of Linear Search and Binary Search
+
+Linear Search checks each element one by one until the required element is found.
+
+Binary Search repeatedly divides the sorted array into two halves and searches only in the required half.
+
+Time Complexity Comparison:
+
+Linear Search:
+
+* Best Case: O(1)
+* Average Case: O(n)
+* Worst Case: O(n)
+
+Binary Search:
+
+* Best Case: O(1)
+* Average Case: O(log n)
+* Worst Case: O(log n)
+
+4. Suitable Algorithm for E-commerce Platform
+
+Binary Search is more suitable for an e-commerce platform because it is much faster when the product data is sorted. It can find products in fewer comparisons and performs efficiently even when the number of products is very large.
+
+Therefore, Binary Search is preferred for large product catalogs.

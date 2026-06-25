@@ -1,0 +1,35 @@
+FINANCIAL FORECASTING ANALYSIS
+
+1. What is Recursion?
+
+Recursion is a technique in which a method calls itself to solve a problem. A large problem is divided into smaller parts until a simple condition, called the base case, is reached.
+
+In this program, the method calculates the value for one year and then calls itself for the remaining years.
+
+2. Recursive Forecasting Approach
+
+The future value is calculated using the growth rate every year.
+
+Future Value = Current Value × (1 + Growth Rate)
+
+The recursive method keeps applying this formula until the number of years becomes zero.
+
+3. Time Complexity
+
+The recursive method makes one recursive call for each year.
+
+Therefore, if n is the number of years:
+
+Time Complexity = O(n)
+
+This means the running time increases linearly with the number of years.
+
+4. Optimization
+
+The current solution is simple and efficient because it makes only one recursive call in each step.
+
+However, recursion uses additional memory because each function call is stored in the call stack.
+
+For very large values of n, an iterative approach using a loop can be used to reduce memory usage and avoid stack overflow.
+
+Therefore, recursion is easy to understand, while iteration is generally more efficient for large inputs.
