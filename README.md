@@ -13,9 +13,18 @@ COGNIZANT-HANDSON/
     │   ├── Exercise 2/
     │   └── Exercise 7/
     │
-    └── Design Patterns and Principles/
-        ├── SingletonPatternExample/
-        └── FactoryMethodPatternExample/
+    ├── Design Patterns and Principles/
+    │   ├── Exercise 1/
+    │   └── Exercise 2/
+    │
+    ├── JUnit Testing/
+    │   ├── Exercise 1/
+    │   ├── Exercise 3/
+    │   └── Exercise 4/
+    │
+    └── PL_SQL Programming/
+        ├── Exercise 1/
+        └── Exercise 3/
 ```
 
 ## 🧩 Exercises
@@ -31,6 +40,15 @@ COGNIZANT-HANDSON/
 - Exercise 2 – E-commerce Platform Search Function
 - Exercise 7 – Financial Forecasting
 
+#### PL/SQL Programming
+- Exercise 1 – Control Structures
+- Exercise 3 – Stored Procedures
+
+#### JUnit Testing
+- Exercise 1 – Setting Up JUnit
+- Exercise 3 – Assertions in JUnit
+- Exercise 4 – Arrange-Act-Assert (AAA) Pattern, Test Fixtu
+
 ## 🛠️ Tech Stack
 
 - **Language:** Java 8+
@@ -39,10 +57,41 @@ COGNIZANT-HANDSON/
 
 ## ▶️ How to Run
 
-Navigate to the exercise folder and run:
+### Java Exercises
+
+Navigate to the required exercise folder:
 
 ```bash
-cd SingletonPatternExample
-javac src/com/singleton/Logger.java src/com/singleton/SingletonTest.java
-java -cp src com.singleton.SingletonTest
+cd "<exercise-folder>"
 ```
+
+Compile:
+
+```bash
+javac *.java
+```
+
+Run:
+
+```bash
+java <MainClassName>
+```
+
+Examples:
+
+```bash
+java SingletonTest
+java FactoryTest
+java SearchTest
+java ForecastTest
+```
+
+### PL/SQL Exercises
+
+Execute the `.sql` files using Oracle SQL Developer, SQL*Plus, or Oracle Live SQL.
+
+### JUnit Exercises
+
+JUnit exercises require JUnit 4.13.2 and can be executed using Maven or an IDE with JUnit support.
+
+---
