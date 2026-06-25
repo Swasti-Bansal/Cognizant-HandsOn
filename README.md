@@ -14,17 +14,24 @@ COGNIZANT-HANDSON/
     │   └── Exercise 7/
     │
     ├── Design Patterns and Principles/
-    │   ├── Exercise 1/
-    │   └── Exercise 2/
+    │   ├── SingletonPatternExample/ 
+    |   └── FactoryMethodPatternExample/
     │
     ├── JUnit Testing/
     │   ├── Exercise 1/
     │   ├── Exercise 3/
-    │   └── Exercise 4/
+    │   ├── Exercise 4/
     │
-    └── PL_SQL Programming/
-        ├── Exercise 1/
-        └── Exercise 3/
+    ├── Mockito/
+    │   ├── Exercise 1/
+    │   └── Exercise 2/
+    │
+    ├── PL_SQL Programming/
+    │   ├── Exercise 1/
+    │   └── Exercise 3/
+    │
+    └── SLF4J Logging/
+        └── Exercise 1/
 ```
 
 ## 🧩 Exercises
@@ -49,11 +56,22 @@ COGNIZANT-HANDSON/
 - Exercise 3 – Assertions in JUnit
 - Exercise 4 – Arrange-Act-Assert (AAA) Pattern, Test Fixtu
 
+#### Mockito
+- Exercise 1 – Mocking and Stubbing
+- Exercise 2 – Verifying Interactions
+
+#### SLF4J Logging
+- Exercise 1 – Logging Error Messages and Warning Levels
+
 ## 🛠️ Tech Stack
 
-- **Language:** Java 8+
-- **IDE:** VS Code
-- **Version Control:** Git
+- Java
+- PL/SQL
+- JUnit 4 / JUnit 5
+- Mockito
+- SLF4J & Logback
+- Git & GitHub
+- VS Code
 
 ## ▶️ How to Run
 
@@ -90,8 +108,12 @@ java ForecastTest
 
 Execute the `.sql` files using Oracle SQL Developer, SQL*Plus, or Oracle Live SQL.
 
-### JUnit Exercises
+### JUnit & Mockito Exercises
 
-JUnit exercises require JUnit 4.13.2 and can be executed using Maven or an IDE with JUnit support.
+JUnit and Mockito exercises require external dependencies and can be executed using Maven or an IDE with JUnit/Mockito support.
+
+### SLF4J Logging Exercises
+
+SLF4J exercises require Maven dependencies (SLF4J and Logback) and can be executed using Maven or an IDE with dependency management support.
 
 ---
