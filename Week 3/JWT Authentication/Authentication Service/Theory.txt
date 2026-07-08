@@ -1,0 +1,11 @@
+Exercise: Create Authentication Service that Returns JWT
+
+Objective:
+Create a Spring Boot application that provides an authentication endpoint.
+
+Request:
+GET /authenticate
+
+The authentication service receives the username and password using the Authorization header and returns a JWT token.
+
+In this exercise only the basic project structure and controller are created. JWT generation and Spring Security configuration are implemented in the next hands-on exercises.
